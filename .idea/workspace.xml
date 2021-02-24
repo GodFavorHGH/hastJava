@@ -5,33 +5,234 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f130aafd-a537-4528-99b3-23909128684a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/api-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/common/Result.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/constant/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/constant/VarDict.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Answer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Menu.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Question.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Topic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/development-procedure.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/schedule.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/UserMain1001.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/UserMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/sql/user.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.mylyn/repositories.xml.zip" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/springboot-quick-start/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/springboot-quick-start/.location" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.projects/springboot-quick-start/org.eclipse.egit.core/GitProjectData.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/history.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.root/.indexes/properties.version" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.resources/.safetable/org.eclipse.core.resources" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/com.collabnet.subversion.merge.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.resources.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.core.runtime.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.debug.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.egit.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.junit.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.launching.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jsch.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.jst.j2ee.webservice.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.m2e.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.context.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.monitor.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.mylyn.tasks.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.pde.api.tools.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.rse.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.ide.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.ui.workbench.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.eclipse.wst.jsdt.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springframework.ide.eclipse.imports.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.frameworks.core.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.springsource.ide.eclipse.commons.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.core.runtime/.settings/org.tigris.subversion.subclipse.ui.prefs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.e4.workbench/workbench.xmi" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/101550512.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1123349081.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1154106137.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1174441756.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/11879774.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1204889291.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1237651286.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1290452032.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1290680030.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1333457214.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1363097808.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/138601672.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1401167797.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1411405998.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1451592922.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1467054549.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1506549573.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1516838147.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/152820076.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1539363079.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1628730964.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1669213225.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1694768508.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1750661485.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1774852963.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/18016534.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1870082367.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1918225692.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1971038307.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/1997966554.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2006267113.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2071316629.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2087052811.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2114324448.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2115004987.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2120929640.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2173238067.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2181177309.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2277666606.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2371751450.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2381806263.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2423533237.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2474511427.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/250420071.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2530313595.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2536948801.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2619744167.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2675369112.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2684349050.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/273242711.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2733350973.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2734895168.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2742932416.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2757478582.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2795335939.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/283306073.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2894849925.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2895878108.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2939490757.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/2985262129.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3015457533.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3155230375.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3215716392.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3275487620.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3292632878.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3382421044.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3454827038.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3484586240.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3490101252.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/349989521.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3554988832.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3564273272.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/357022210.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3578912340.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3595485182.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3621570698.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3689295420.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3722366782.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3732270466.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/374594476.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3748852728.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3840736520.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3868688201.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/388319982.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/3984255774.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4013810105.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4031496320.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4114712808.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4143342399.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4165247092.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4166101757.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4206430044.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4275105243.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/4276100041.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/437720892.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/475304201.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/505962734.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/511807254.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/512818566.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/625963301.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/713152077.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/729152872.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/783986515.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/793896260.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/822893237.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/852499749.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/886179470.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/902334947.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/97762987.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/assumedExternalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalFilesCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/externalLibsTimeStamps" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/javaLikeNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/nonChainingJarsCache" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/savedIndexNames.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/.install.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.launching/libraryInfos.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/OpenTypeHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.jdt.ui/QualifiedTypeNameHistory.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/springboot-quick-start/2021/2/7/refactorings.history" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ltk.core.refactoring/.refactorings/springboot-quick-start/2021/2/7/refactorings.index" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/05b0fe8524860bd73cbb07ef30fb34cc/segments_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/_0_1.del" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/_1.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/11cc140ee4e0c6a5d0dde4a89371e513/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/34c244b67711b42ec52c14ffd2abf486/_0.cfs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/34c244b67711b42ec52c14ffd2abf486/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/34c244b67711b42ec52c14ffd2abf486/segments_2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/830bc118332e77292949ed1e6d2fabe0/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/b14d6e6580a19d59f97348b512b44d03/segments.gen" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/nexus/b14d6e6580a19d59f97348b512b44d03/write.lock" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/springboot-quick-start.lifecyclemapping" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspaceState.ser" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.core/workspacestate.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.jdt/springboot-quick-start.container" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/0.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.m2e.logback.configuration/logback.1.14.0.20191209-1925.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.oomph.setup/workspace.setup" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.rse.core/.log" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.rse.core/initializerMarks/org.eclipse.rse.internal.core.RSELocalConnectionInitializer.mark" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tips.ide/dialog_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.tm.terminal.view.ui/.executables/data.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.intro/introstate" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.ui.workbench/workingsets.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.jsdt.core/variablesAndContainers.dat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.sse.core/task-tags.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/src/main/java/com/dip/SpringBootElasticsearchStartApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/src/test/java/com/dip/SpringBootElasticsearchStartApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/mvnw" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/mvnw.cmd" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/java/com/dip/SpringBootKafkaStartdemoApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/java/com/dip/bean/UserLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/java/com/dip/consumer/UserLogConsumer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/java/com/dip/producer/UserLogProducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/resources/application.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/test/java/com/dip/SpringBootKafkaStartdemoApplicationTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../springboot-quick-start" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Answer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Menu.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Question.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Topic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -43,7 +244,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GitSEFilterConfiguration">
     <file-type-list>
@@ -56,9 +257,9 @@
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
-        <option name="localRepository" value="$USER_HOME$/Downloads/maven_repository" />
-        <option name="mavenHome" value="$USER_HOME$/Downloads/apache-maven-3.6.3" />
-        <option name="userSettingsFile" value="$USER_HOME$/Downloads/apache-maven-3.6.3/conf/settings.xml" />
+        <option name="localRepository" value="D:\maven\localrepository" />
+        <option name="mavenHome" value="D:\download\devsoftconfig\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3" />
+        <option name="userSettingsFile" value="D:\download\devsoftconfig\maven\apache-maven-3.6.3-bin\apache-maven-3.6.3\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
@@ -82,11 +283,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-user/src/main/resources/mapper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
@@ -96,13 +297,15 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -135,6 +338,7 @@
       <option name="presentableId" value="Default" />
       <updated>1614136104361</updated>
       <workItem from="1614136106124" duration="12828000" />
+      <workItem from="1614172075091" duration="3386000" />
     </task>
     <servers />
   </component>

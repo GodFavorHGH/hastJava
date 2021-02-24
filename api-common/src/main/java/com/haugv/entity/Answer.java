@@ -5,11 +5,13 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 import lombok.ToString;
 
+import java.io.Serializable;
+
 @Data
 @NoArgsConstructor
 @AllArgsConstructor
 @ToString
-public class Answer {
+public class Answer implements Serializable {
     /**唯一主键*/
     private int id;
     /***/
@@ -19,7 +21,7 @@ public class Answer {
     /***/
     private String createTime;
     /***/
-    private int content;
+    private String content;
     /***/
     private String authStatus;
     /***/
