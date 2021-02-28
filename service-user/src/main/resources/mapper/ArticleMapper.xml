@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.haugv.mapper.ArticleMapper">
+
+    <insert id="createArticle" parameterType="User" useGeneratedKeys="true" keyProperty="id">
+        insert into article
+            (subject, sequence, title, content)
+            values
+            (#{subject}, #{sequence}, #{title}, #{content})
+    </insert>
+
+    <resultMap id="BaseArticleMapping" type="Article">
+        <id column="id" property="id"></id>
+        <result column="subject" property="subject"/>
+        <result column="sequence" property="sequence"/>
+        <result column="title" property="title"/>
+        <result column="content" property="content"/>
+        <result column="createtime" property="createTime"/>
+        <result column="updatetime" property="updateTime"/>
+    </resultMap>
+    <select id="getArticleList" parameterType="String" resultMap="BaseArticleMapping">
+        select * from article where subject = #{subject} order by sequence asc
+    </select>
+
+</mapper>

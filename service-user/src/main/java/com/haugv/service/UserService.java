@@ -8,4 +8,6 @@ public interface UserService {
     int createUser(User user);
 
     User getUser(int id);
+
+    User doLogin(String name, String password);
 }

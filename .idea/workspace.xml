@@ -195,6 +195,15 @@
       <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/default_catalog.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../custom-annotion/custom-annotion.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/filter/ApiFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/sql/article.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -217,14 +226,24 @@
       <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/main/resources/application.properties" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/test/java/com/dip/SpringBootKafkaStartdemoApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-quick-start" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Answer.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Answer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Menu.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Menu.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Question.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Question.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Topic.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Topic.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Answer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Menu.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Question.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Topic.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/UserMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/UserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/service-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/controller/UserController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/mapper/UserMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/UserService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/impl/UserServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/service-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -283,17 +302,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/service-user/src/main/resources/mapper" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
+    <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\springboot-workspace\hastJava\service-user\src\main\resources\mapper" />
       <recent name="$PROJECT_DIR$/service-user/src/main/resources/mapper" />
       <recent name="$PROJECT_DIR$/service-user/src/main/resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.haugv" />
     </key>
   </component>
   <component name="RunManager">
@@ -338,14 +363,38 @@
       <option name="presentableId" value="Default" />
       <updated>1614136104361</updated>
       <workItem from="1614136106124" duration="12828000" />
-      <workItem from="1614172075091" duration="3386000" />
+      <workItem from="1614172075091" duration="4168000" />
+      <workItem from="1614394943301" duration="599000" />
+      <workItem from="1614414030936" duration="8856000" />
+      <workItem from="1614440746308" duration="193000" />
+      <workItem from="1614441329928" duration="712000" />
+      <workItem from="1614442973792" duration="7467000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="(String)jsonParam.get(&quot;name&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>

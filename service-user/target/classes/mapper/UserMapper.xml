@@ -27,4 +27,10 @@
     <select id="getUser" parameterType="int" resultMap="BaseUserMapping">
         select * from user where id = #{id}
     </select>
+
+    <select id="doLogin" parameterType="Map" resultMap="BaseUserMapping">
+        select * from user
+        where name = #{name}
+        and password = #{password}
+    </select>
 </mapper>

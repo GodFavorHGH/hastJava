@@ -1,5 +1,6 @@
 package com.haugv.controller;
 
+import cn.hutool.json.JSONObject;
 import com.haugv.common.Result;
 import com.haugv.constant.ResultCode;
 import com.haugv.entity.User;
@@ -8,12 +9,28 @@ import org.springframework.web.bind.annotation.*;
 
 import javax.annotation.Resource;
 
+/**
+ * @author 98285
+ */
 @RestController
 @RequestMapping("/user")
+@CrossOrigin
 public class UserController {
 
     @Resource
     private UserService userService;
+
+    @PostMapping(value = "/login", produces = "application/json;charset=UTF-8")
+    public Result doLogin(@RequestBody JSONObject jsonParam){
+        User user = userService.doLogin((String)jsonParam.get("name"), (String)jsonParam.get("password"));
+        if (user == null) {
+            return Result.failure(440, "用户不存在");
+        }
+        Result result = Result.successWithoutData();
+        result.setData(user);
+        return result;
+    }
+
 
     @PostMapping(value = "/create")
     public Result createUser(User user){
