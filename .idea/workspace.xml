@@ -196,14 +196,6 @@
       <change afterPath="$PROJECT_DIR$/../.metadata/.plugins/org.eclipse.wst.xml.core/system_catalog.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../.metadata/version.ini" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../custom-annotion/custom-annotion.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/api-common/src/main/java/com/haugv/entity/Article.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/ArticleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/filter/ApiFilter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/ArticleMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/ArticleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/ArticleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/mapper/ArticleMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/service-user/src/main/resources/sql/article.sql" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/MavenWrapperDownloader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.jar" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../spring-boot-elasticsearch-start/.mvn/wrapper/maven-wrapper.properties" afterDir="false" />
@@ -227,23 +219,6 @@
       <change afterPath="$PROJECT_DIR$/../spring-boot-kafka-startdemo/src/test/java/com/dip/SpringBootKafkaStartdemoApplicationTests.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../springboot-quick-start" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Answer.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Answer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Menu.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Menu.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Question.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Question.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Topic.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/Topic.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/api-common/target/classes/com/haugv/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/UserMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/mapper/UserMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/java/com/haugv/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/mapper/UserMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/mapper/UserMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/com/haugv/service/impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/service-user/target/classes/mapper/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/service-user/target/classes/mapper/UserMapper.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -322,19 +297,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="UserMain1001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="service-user" />
       <extension name="coverage">
@@ -368,7 +330,8 @@
       <workItem from="1614414030936" duration="8856000" />
       <workItem from="1614440746308" duration="193000" />
       <workItem from="1614441329928" duration="712000" />
-      <workItem from="1614442973792" duration="7467000" />
+      <workItem from="1614442973792" duration="7790000" />
+      <workItem from="1614578065360" duration="48000" />
     </task>
     <servers />
   </component>
